@@ -44,6 +44,9 @@ public class CheckboxSample {
                 JOptionPane.showMessageDialog(null, str);
             }
         };
+        
+        check1.addActionListener(lstener);
+        check2.addActionListener(lstener);
         ////////////////////////////////////////
         frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         frame.setVisible(true);
